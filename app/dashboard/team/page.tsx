@@ -14,8 +14,8 @@ import MobileNav from "@/components/mobile-nav" // Fixed import to use default i
 const mockTeamMembers = [
   {
     id: 1,
-    name: "Alice Johnson",
-    email: "alice@synergysphere.com",
+    name: "Teja Swaroop",
+    email: "teja.swaroop@synergysphere.com",
     role: "Product Manager",
     avatar: "AJ",
     status: "online",
@@ -26,8 +26,8 @@ const mockTeamMembers = [
   },
   {
     id: 2,
-    name: "Bob Smith",
-    email: "bob@synergysphere.com",
+    name: "Jeevan Babu",
+    email: "jeevan.babu@synergysphere.com",
     role: "Senior Developer",
     avatar: "BS",
     status: "online",
@@ -38,8 +38,8 @@ const mockTeamMembers = [
   },
   {
     id: 3,
-    name: "Carol Davis",
-    email: "carol@synergysphere.com",
+    name: "Yashti Chandra",
+    email: "yashti.chandra@synergysphere.com",
     role: "UX Designer",
     avatar: "CD",
     status: "away",
@@ -50,8 +50,8 @@ const mockTeamMembers = [
   },
   {
     id: 4,
-    name: "David Wilson",
-    email: "david@synergysphere.com",
+    name: "Yashwanth Kumar",
+    email: "yashwanth.kumar@synergysphere.com",
     role: "DevOps Engineer",
     avatar: "DW",
     status: "offline",
@@ -62,8 +62,8 @@ const mockTeamMembers = [
   },
   {
     id: 5,
-    name: "Eva Brown",
-    email: "eva@synergysphere.com",
+    name: "Sumanth Reddy",
+    email: "sumanth.reddy@synergysphere.com",
     role: "Marketing Specialist",
     avatar: "EB",
     status: "online",
@@ -73,6 +73,7 @@ const mockTeamMembers = [
     lastActive: "Just now",
   },
 ]
+
 
 const mockActivity = [
   {
