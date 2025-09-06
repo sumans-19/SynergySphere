@@ -8,5 +8,11 @@
     "name": "Milan",
     "email": "milan@example.com",
     "password": "password1"
+  },
+  {
+    "name": "Monkey D",
+    "email": "monkey.luffy@synergysphere.com",
+    "password": "password2"
   }
+
 ]
