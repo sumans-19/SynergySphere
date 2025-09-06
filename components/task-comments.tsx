@@ -25,25 +25,40 @@ interface TaskCommentsProps {
 const mockComments: Comment[] = [
   {
     id: 1,
-    author: "Alice Johnson",
-    avatar: "AJ",
-    content: "I've started working on the wireframes. Should have the initial drafts ready by tomorrow.",
-    timestamp: "2 hours ago",
+    author: "Arjun Mehta",
+    avatar: "AM",
+    content: "I’ve drafted the initial project plan. We can review it in tomorrow’s meeting.",
+    timestamp: "3 hours ago",
   },
   {
     id: 2,
-    author: "Bob Smith",
-    avatar: "BS",
-    content: "Great! Let me know if you need any technical input on the feasibility of the designs.",
-    timestamp: "1 hour ago",
+    author: "Priya Sharma",
+    avatar: "PS",
+    content: "I’ll start preparing the presentation slides. Should be done by evening.",
+    timestamp: "2 hours ago",
   },
   {
     id: 3,
-    author: "Carol Davis",
-    avatar: "CD",
-    content: "I can help with the user research data to inform the design decisions.",
-    timestamp: "30 minutes ago",
+    author: "Ravi Kumar",
+    avatar: "RK",
+    content: "I can handle the backend integration tasks this week.",
+    timestamp: "1 hour ago",
   },
+  {
+    id: 4,
+    author: "Sneha Patel",
+    avatar: "SP",
+    content: "I’ll collect the client feedback and summarize it for the team.",
+    timestamp: "45 minutes ago",
+  },
+  {
+    id: 5,
+    author: "Vikram Singh",
+    avatar: "VS",
+    content: "I’ll coordinate with the testing team and ensure bug reports are tracked.",
+    timestamp: "20 minutes ago",
+  }
+
 ]
 
 export function TaskComments({ taskId, comments = mockComments }: TaskCommentsProps) {
